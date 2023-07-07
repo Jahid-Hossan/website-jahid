@@ -30,11 +30,45 @@
 
 .btn{
     border: none;
-    padding: 10px 20px;
+    padding: 20px;
     color: aliceblue;
     background-color: rgb(50, 49, 49);
+    font-size: large;
 }
 .btn:hover{
     background: gray;
     cursor: pointer;
+}
+.cinteiner{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    height: 70vh;
+    background-image: linear-gradient(45deg, #2C3E50, #4CA1AF);
+
+}
+.content{
+    color: aliceblue;
+    margin-bottom: 10px;
+
+}
+.bnr{
+   
+    font-size: 50px;
+    margin-bottom: 10px;
+
+}
+.bcntx{
+    font-size: 20px;
+    margin: 10px 0px; 
+}
+.content>button{
+    border-radius: 5px;
+    /* text-size-adjust: 20px; */
+
+}
+.orient{
+    height: 50vh;
 }
