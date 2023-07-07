@@ -1,0 +1,40 @@
+* {
+    margin: 0; 
+    padding: 0;
+}
+.bap{
+    display: flex;
+    background-color: rgb(50, 49, 49);
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.log{
+    width: 70px;
+    padding-top: 10px;
+}
+.unlist{
+    list-style: none;
+    display: flex;
+    color: aliceblue;
+}
+.menu{
+    padding: 20px;
+}
+.menu:hover{
+    background: gray;
+    cursor: pointer;
+}
+
+
+.btn{
+    border: none;
+    padding: 10px 20px;
+    color: aliceblue;
+    background-color: rgb(50, 49, 49);
+}
+.btn:hover{
+    background: gray;
+    cursor: pointer;
+}
